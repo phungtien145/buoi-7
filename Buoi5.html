@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function in_Xinchao(){
+    console.log("xin chào green academy - trả góp 0%")
+    console.log("giảm giá 10% trong thnags 10")
+}
+// hàm không có tham số
+function in_BCC2(){
+    console.log("2.1=2")
+    console.log("2.2=4")
+    console.log("2.3=6")
+    console.log("...")
+
+    console.log("2.10=20")
+}
+// hàm có 1 tham số
+function thongTinHinhVuong(canh){
+    console.log("Hình vuông có cạnh ="+canh)
+}
+//hàm có 2 tham số
+function thongTinHinhChuNhat(dai,rong){
+    console.log("HCN có chiều dài = "+dai+" và chiều rộng ="+ rong)
+}
+//function có 2 tham số
+function mieuTaMe(hinhAnh,dang){
+    console.log(`Tóc mẹ bạc màu ${hinhAnh} phủ kín đôi vai ${dang}`)
+}
+//hàm tính toán tự định nghĩa: return
+function tong(a,b){
+    return a+b;
+}
+function tich(a,b,c){
+    return a*b*c
+}
+function thuong(a,b){
+    return a/b
+}
+// bài tập 1: viết hàm tính diện tích hình chữ nhật
+function tinhDienTichHCN(dai,rong){
+    return dai*rong
+}
+// bài tập 2: Viết hàm tính diện tích hình tròn và gọi hàm
+let pi= 3.14
+function tinhDienTichHinhTron(bankinh){
+    return pi*bankinh
+}
+in_BCC2();
+in_Xinchao();
+in_Xinchao();
+thongTinHinhChuNhat(3,4);
+thongTinHinhVuong(6);
+mieuTaMe("mây", "gầy");
+console.log(Math.max(2,3,4))
+console.log(Math.round(4.9))
+alert(math.pow(2,3))
+console.log(tong(2,3))
+console.log(tich(2,3,4))
+console.log(thuong(4,2))
+console.log(` diện tích hình vuông là: ${tinhDienTichHCN(5,6)}`)
+console.log(` diện tích hình tròn là: ${tinhDienTichHinhTron(4)}`)
+    </script>
+    </body>
+</html>
